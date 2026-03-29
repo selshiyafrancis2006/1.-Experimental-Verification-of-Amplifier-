@@ -1,6 +1,6 @@
 #**EX.NO:** 1  # EXPERIMENTAL VERIFICATION OF AMPLIFIER INVERTING, NON INVERTING , DIFFERENTIAL AMPLIFIER AND INSTRUMENTATION AMPLIFIERS
-**DATE:**  
----
+
+
 
 ## AIM
 To design and construct an Inverting, Non-Inverting, Differential and Instrumentation amplifiers.
@@ -60,13 +60,9 @@ MODEL GRAPH
 
 
 DESIGN:
-
 Inverting amplifier:
+<img width="1448" height="787" alt="image" src="https://github.com/user-attachments/assets/52b2ffd4-8046-4716-b645-9fa0dfa121c2" />
 
-A = -Rf/R1
-Take  A = 10
-Rf =10 R1
-Choose R1 = 1kΩ, Rf=10kΩ
 
 PROCEDURE:
 Inverting amplifier:
@@ -82,16 +78,14 @@ Inverting amplifier:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+<img width="1078" height="633" alt="image" src="https://github.com/user-attachments/assets/47d68b7e-755e-44d7-9264-6290be1cfb20" />
+<img width="1026" height="313" alt="image" src="https://github.com/user-attachments/assets/e13cd318-32d7-44cb-9e77-82189505cdab" />
+
+
  
-
-
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="595" height="753" alt="image" src="https://github.com/user-attachments/assets/adc0f863-6cc6-40c3-8e7a-17457b6f82cc" />
 
 
 ---
@@ -100,8 +94,8 @@ Inverting amplifier:
 If the signal is applied to the non-inverting input terminal without inversion, it is called a **non-inverting amplifier**.  
 Here, the output is fed back to the inverting terminal, and **no phase shift** occurs.
 
-
-ACL = 1 + RF/R1
+## design
+<img width="589" height="711" alt="image" src="https://github.com/user-attachments/assets/6d65be0b-4eeb-42f5-b126-ed1291fd5a82" />
 
 
 ---
@@ -130,14 +124,11 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+<img width="876" height="788" alt="image" src="https://github.com/user-attachments/assets/c45e46e9-09b1-465d-9e7f-617aa6dac5ff" />
 
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="609" height="773" alt="image" src="https://github.com/user-attachments/assets/96e4a7b3-b08f-4939-b26f-9f4aec0a97ea" />
 
 
 ---
@@ -158,16 +149,8 @@ A = Vo/{V2 - V1} = -Rf/R1
 ---
 
 ## DESIGN
-
-
-### **Differential Amplifier**
-
-AV = Vo/{V1 - V2} = -Rf/R1
-
-
-Take  A = 10 
-⇒  Rf = 10R1   
-Choose  R1 = 1kOhm, Rf = 10kOhm
+<img width="1019" height="482" alt="image" src="https://github.com/user-attachments/assets/842fcd82-bb7b-4723-bf2f-d69a935011ea" />
+<img width="584" height="587" alt="image" src="https://github.com/user-attachments/assets/980d33b5-4118-4c77-8fb6-79cba095aaf6" />
 
 ---
 
@@ -185,15 +168,14 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 ---
 
 ## TABULATION (Differential Amplifier)
+<img width="1015" height="469" alt="image" src="https://github.com/user-attachments/assets/f1501412-4391-49cc-aa34-1358bf022f60" />
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+
+
 
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="594" height="790" alt="image" src="https://github.com/user-attachments/assets/743ae475-d8a0-428f-a636-c6a507ce4fed" />
 
 
 ---
@@ -224,15 +206,13 @@ PROCEDURE:
 ---
 
 ## TABULATION (Instrumentation Amplifier)
+<img width="1037" height="584" alt="image" src="https://github.com/user-attachments/assets/bc60b94b-1034-4f03-b335-23a8b321bce4" />
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+
 
 ---
-## OUT PUT WAVEFORM AND DISCUSSION 
+## GRAPH
+<img width="600" height="792" alt="image" src="https://github.com/user-attachments/assets/7fa969c1-0d3f-47af-9bbc-a8954c09eb54" />
 
 
 ---
